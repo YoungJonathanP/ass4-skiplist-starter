@@ -31,7 +31,7 @@ private:
   // private SNode
   // defined in .cpp as SkipList::SNode::SNode(int Data) ...
   struct SNode {
-    explicit SNode(int Data);
+    explicit SNode(int Data = -1);
     int Data;
     // link to Next SNode
     SNode *Next;
